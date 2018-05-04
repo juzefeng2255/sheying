@@ -1,0 +1,384 @@
+@charset "utf-8";
+body, ul, li, ol, h1, h2, h3, h4, h5, h6, p, input, select, textarea, dl, dd {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+html,body{
+    background: #1B1B1B;
+}
+h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+@media (min-width: 768px) {
+    .wrap{
+        width: 800px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
+    }
+    .pc_hide{
+        display: none !important;
+    }
+    .pc_show{
+        display: block !important;
+    }
+    .intro{
+        padding: 30px 0 !important;
+    }
+    .intro{
+        padding: 38px 0 !important;
+    }
+    .comp{
+        float: left;
+        width: 344px;
+        height: 288px;
+    }
+    .img_big{
+        width: 340px !important;
+        height: 190px !important;
+    }
+    .about .kun .i{
+        width: 325px !important;
+        height: auto;
+    }
+    .pc_logo{
+        margin-top: 0 !important;
+    }
+    .about h3,.about .kun{
+        padding-top: 64px;
+    }
+    .type  h4{
+        padding-top: 64px;
+    }
+    .type .hi{
+        padding-bottom: 61px;
+    }
+    .type li p{
+        padding-top: 30px;
+    }
+    .type{
+        padding-bottom: 66px;
+    }
+    .style  h4{
+        padding-top: 64px;
+    }
+    .style .hi{
+        padding-bottom: 61px;
+    }
+    .style .ts,.sd,.sh{
+        padding-bottom: 94px;
+    }
+    .news h4{
+        padding-top: 64px;
+    }
+    .news .hi{
+        padding-bottom: 63px;
+    }
+    .news li span{
+        padding-top: 30px;
+    }
+    .news li p{
+        padding-top: 37px;
+    }
+    .news li img{
+        padding-top: 34px;
+    }
+    .kh h4{
+        padding-top: 64px;
+    }
+    .kh .hi{
+        padding-bottom: 63px;
+    }
+    .kh li span{
+        padding-top: 27px;
+    }
+    .kh li p{
+        padding-top: 33px;
+    }
+    .kh{
+        padding-bottom: 87px;
+    }
+}
+.wrap{
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.mob_hide{
+    display: none;
+}
+.mob_show{
+    display: block;
+}
+.nav{
+    background-color: #161616;
+    margin-bottom: 30px;
+}
+.navbar-inverse{
+    border-color: transparent;
+}
+.navbar-nav {
+    padding-top: 16px;
+}
+.navbar-nav .active{
+    background-color: #151515 !important;
+}
+.navbar-nav li:hover{
+    background-color: #151515 !important;
+}
+.navbar-nav a {
+    background-color: transparent !important;
+}
+.navbar-nav li a:active {
+    background-color: #151515 !important;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #151515;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color:#151515 !important;
+    margin-top: 3px;
+}
+.navbar button{
+    background-color: #151515 !important;
+}
+.carousel{
+    margin-top: 100px;
+}
+.carousel span{
+    font-family: '宋体';
+}
+.glyphicon-chevron-left:before {
+    content: "" !important;
+}
+.glyphicon-chevron-right:before {
+    content: "" !important;
+}
+.about {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    background: #1B1B1B;
+    padding-bottom: 27px;
+}
+.about h3{
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.about p {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.about .kun .s{
+    width: 320px;
+    height: auto;
+    text-align: left;
+    margin-bottom: 26px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.about .kun{
+    margin: 0 auto;
+    display: block;
+    width:100%;
+    height: auto;
+    padding-top: 30px;
+
+}
+.about .kun .i{
+    float: right;
+    width: 100%;
+    height: auto;
+}
+.about .m{
+    display: block;
+    width: 164px;
+    height: 50px;
+    margin-top: 40px !important;
+    margin: 0 auto;
+}
+.type{
+    width: 100%;
+    background: #F13A3A;
+    padding-bottom: 31px;
+}
+.wrap li {
+    float: left;
+
+}
+.wrap li img{
+    width: 100%;
+    height: auto;
+}
+.type  h4{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.type .hi{
+    padding-bottom: 22px;
+    text-align: center;
+    color: #fff;
+}
+.type li p{
+   text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+.type li span{
+    padding-left: 40px;
+    color: #fff;
+}
+.type .gr,.gh{
+    padding-bottom: 16px;
+}
+.style{
+    width: 100%;
+    background: #1B1B1B;
+}
+.style  h4{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.style .hi{
+    padding-bottom: 22px;
+    text-align: center;
+    color: #fff;
+}
+.style li{
+    float: left;
+}
+.style li img{
+    width: 100%;
+    height: auto;
+}
+.style .gd{
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.style li .nr{
+    background: #2D2D2D;
+    padding-bottom: 22px;
+}
+.style span{
+    color: #fff;
+    padding-left: 40px;
+}
+.style .ts,.sd,.sh{
+    padding-bottom: 34px;
+}
+.style .qs,.gf,.aj{
+    padding-bottom: 34px;
+}
+.news{
+    width: 100%;
+    background: #2D2D2D;
+}
+.news  h4{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.news .hi{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+.news li{
+    float: left;
+}
+.news li .img{
+    width: 100%;
+    height: auto;
+}
+.news li .qw{
+    width: 164px;
+    height: auto;
+    margin-top: 14px;
+    padding-left: 26px;
+    padding-bottom: 20px;
+}
+.news span{
+    color:#fff;
+    padding-top: 18px;
+}
+.news li p{
+    width: 346px;
+    color:#fff;
+    padding-top: 18px;
+}
+.kh{
+    width: 100%;
+    background: #1B1B1B;
+    padding-bottom: 34px;
+}
+.kh  h4{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.kh .hi{
+    padding-bottom: 51px;
+    text-align: center;
+    color: #fff;
+}
+
+.kh li p{
+    width: 100% !important;
+    width: 315px;
+    height: auto;
+    color: #fff;
+    padding-top: 13px;
+}
+.kh li span{
+    display: block;
+    color: #fff;
+    padding-top: 15px;
+}
+.kh li img{
+    width: 90px;
+    height: auto;
+}
+.footer{
+    background-color: #151515;
+    padding: 45px 0;
+}
+.footer p{
+    line-height: 28px;
+    color: #666;
+    text-align: center;
+}
+.footer p span{
+    padding: 0 2px;
+}
+
